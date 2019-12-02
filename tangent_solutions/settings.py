@@ -157,6 +157,11 @@ STATICFILES_DIRS = (
 #  Add configuration for static files storage using white-noise
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
-import dj_database_url
-prod_db = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(prod_db)
+# import dj_database_url
+# prod_db = dj_database_url.config(conn_max_age=500)
+# DATABASES['default'].update(prod_db)
+
+import django_heroku
+
+django_heroku.settings(locals())
+
