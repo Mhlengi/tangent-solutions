@@ -27,6 +27,8 @@ Please consult Google if you need to install any of the pre-requisites
 ### Running django pytest with code-coverage report
 `coverage run -m py.test -xvv --create-db; coverage html; coverage report;`
 
+![PyTest Image](https://github.com/Mhlengi/tangent-solutions/blob/master/Screenshot%202019-12-02%20at%2012.39.34.png)
+
 ### Test Localhost Browser Application
 - Type the following URLs in your browser URL bar.
 - Access [localhost application](http://localhost:8000) on your browser.
