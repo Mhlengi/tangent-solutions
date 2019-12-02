@@ -1,4 +1,5 @@
-# Tangent-Solutions-API [Live App](https://tangent-solutions.herokuapp.com/api/docs/)
+# Tangent-Solutions-API 
+[Live REST API App](https://tangent-solutions.herokuapp.com/api/docs/)
 
 ## Requirements
 - Python 3.7+
