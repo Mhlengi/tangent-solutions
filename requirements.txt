@@ -12,6 +12,7 @@ coverage==4.5.4
 dj-database-url==0.5.0
 Django==2.2.7
 django-email-auth==0.1.5
+django-heroku==0.3.1
 django-phonenumber-field==3.0.1
 django-rest-registration==0.5.2
 django-rest-swagger==2.2.0
