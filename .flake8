@@ -1,0 +1,5 @@
+[flake8]
+exclude = .git,*/migrations/*,*/static/*,venv,*settings*
+ignore = F405, I101, E266, I202, W503, I100, E722
+max-line-length = 100
+import-order-style = google
