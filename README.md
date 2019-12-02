@@ -33,12 +33,12 @@ Please consult Google if you need to install any of the pre-requisites
 ### Test Localhost Browser Application
 - Access [localhost application](http://localhost:8000) on your browser.
 
-### Test Heroku Browser Application
+### Test Heroku Live Browser Application
 - Access heroku application [https://tangent-solutions.herokuapp.com](https://tangent-solutions.herokuapp.com) on your browser.
 #### Swagger Docs
 - Access swagger docs [https://tangent-solutions.herokuapp.com/api/docs/](https://tangent-solutions.herokuapp.com/api/docs/) on your browser.
 
-### Application Demonstration or REST-API usage
+### Application Demo or REST-API usage
 ```
 To demonstrate REST-API's, We choosen Swagger docs or any other REST-API client(Example: Postman).
 ```
