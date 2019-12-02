@@ -58,7 +58,7 @@ To demonstrate REST-API's, We choosen Swagger docs or any other REST-API client(
 `
 - If you everything went well.      
 - Response body with correct status code `201`
-`{
+- `{
   "id": 1,
   "username": "admin",
   "first_name": "Joe",
@@ -78,11 +78,11 @@ To demonstrate REST-API's, We choosen Swagger docs or any other REST-API client(
   "phone_number": "+27723208261"
 }`
 - OR curl command
-`curl -X POST "https://tangent-solutions.herokuapp.com/api/employee/" -H "accept: application/json" -H "Content-Type: application/json" -H "X-CSRFToken: xuHuB4OROKUzpieNt9q9prYDGyNVRiseb6caJlvKK90rTgyargsWq54eVNhzGT8c" -d "{ \"user\": 1, \"phone_number\": \"+27723208261\"}"
+- `curl -X POST "https://tangent-solutions.herokuapp.com/api/employee/" -H "accept: application/json" -H "Content-Type: application/json" -H "X-CSRFToken: xuHuB4OROKUzpieNt9q9prYDGyNVRiseb6caJlvKK90rTgyargsWq54eVNhzGT8c" -d "{ \"user\": 1, \"phone_number\": \"+27723208261\"}"
 `
 - If you everything went well.      
 - Response body with correct status code `201`
-`{
+- `{
   "user": 1,
   "first_name": "Joe",
   "last_name": "Doe",
@@ -104,11 +104,11 @@ To demonstrate REST-API's, We choosen Swagger docs or any other REST-API client(
   "end_date": "2019-04-21"
 }`
 - OR curl command
-`curl -X POST "https://tangent-solutions.herokuapp.com/api/v1/apply/employee/leave/" -H "accept: application/json" -H "Content-Type: application/json" -H "X-CSRFToken: xuHuB4OROKUzpieNt9q9prYDGyNVRiseb6caJlvKK90rTgyargsWq54eVNhzGT8c" -d "{ \"employee\": 1, \"status\": \"New\", \"days_of_leave\": 15, \"start_date\": \"2019-03-21\", \"end_date\": \"2019-04-21\"}"
+- `curl -X POST "https://tangent-solutions.herokuapp.com/api/v1/apply/employee/leave/" -H "accept: application/json" -H "Content-Type: application/json" -H "X-CSRFToken: xuHuB4OROKUzpieNt9q9prYDGyNVRiseb6caJlvKK90rTgyargsWq54eVNhzGT8c" -d "{ \"employee\": 1, \"status\": \"New\", \"days_of_leave\": 15, \"start_date\": \"2019-03-21\", \"end_date\": \"2019-04-21\"}"
 `
 - If you everything went well.      
 - Response body with correct status code `201`
-`{
+- `{
   "employee": 1,
   "status": "New",
   "days_of_leave": 15,
